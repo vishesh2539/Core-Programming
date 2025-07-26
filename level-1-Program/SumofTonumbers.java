@@ -12,5 +12,6 @@ public class SumofTonumbers {
         int sum = num1+num2;
 
         System.out.println("The sum is: "+sum);
+        scanner.close();
     }
 }

@@ -13,6 +13,7 @@ public class CelsiusToFahrenheit{
 
         double fahrenheit = (celcius * 9/5) + 32;
 
-        System.out.println("The Temperature in Fahrenheit is: " + fahrenheit);          
+        System.out.println("The Temperature in Fahrenheit is: " + fahrenheit);
+        scanner.close();       
     }
 }
