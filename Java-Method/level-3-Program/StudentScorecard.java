@@ -14,6 +14,7 @@ public class StudentScorecard {
             scores[i][2] = 10 + rand.nextInt(90); // Maths
         }
         return scores;
+        return scores 
     }
 
     // Calculate total, average, and percentage for each student
